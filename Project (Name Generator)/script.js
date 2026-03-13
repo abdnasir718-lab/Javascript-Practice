@@ -1,5 +1,5 @@
 let firstName = "Abdullah";
-let lastName = "Nasir";
+let lastName = "nasir";
 
 let FullName = `My first name is ${firstName} and last name is ${lastName}
 Length of firstname is ${firstName.length}
