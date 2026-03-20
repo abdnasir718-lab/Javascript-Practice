@@ -261,3 +261,55 @@ function trueOrFalse(isItTrue){
 }
 let u=trueOrFalse(true);
 console.log(u);
+
+//Equality operator
+function testEqual(val){
+    if(val == 12){
+        return "Equal";
+    }
+    return "Not equal";
+}
+let p=testEqual(10);
+console.log(p);
+
+//strict equality operator
+//3 === 3 true
+//3 === '3' false
+
+//practice of equality operator
+function practiceVal(a,b){
+    if(a==10 && b==20){//used and operator
+        return "Pass";
+    }
+    return "Fail";
+}
+console.log(practiceVal(3,20));
+
+//Inequality operator (!=)
+//Greater than (>)
+//Greater than equal to (>=)
+function testGreaterThan(val){
+    if(val >= 20){
+        return "Greater than 20";
+    }
+    if(val >= 10){
+        return "Greater than 10";
+    }
+    return "less than 10";
+}
+console.log(testGreaterThan(2));
+
+//Less than (<)
+//Less than equal to (<=)    
+
+//Logical AND operator
+//if(val <=20 && val >=30)
+
+//Logical OR operator
+function TestOR(val1,val2){
+    if(val1 >= 10 || val2 <=20 ){
+        return "Got the result";
+    }
+    return "No result";
+}
+console.log(TestOR(2,30));
