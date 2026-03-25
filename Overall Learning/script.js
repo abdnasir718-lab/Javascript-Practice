@@ -313,3 +313,69 @@ function TestOR(val1,val2){
     return "No result";
 }
 console.log(TestOR(2,30));
+
+let pracArr=[23,24,25,26];
+console.log("Values in array are: "+JSON.stringify(testArr));
+
+//
+let repo=[10,20,30,40];
+console.log(repo);
+
+//Practice if else , else if
+function pracQues(val){
+    if(val<5){
+        return "Tiny";
+    }
+    else if(val <10){
+        return "Small";
+    }
+    else if(val< 15){
+        return "Medium";
+    }
+    else if(val <20){
+        return "Large";
+    }
+    else{
+        return "Huge";
+    }
+}
+console.log(pracQues(25));
+//Switch statement
+function InSwitch(val){
+    let sw= "";
+    switch(val){
+        case 1:
+            sw="Alpha";
+            break;
+        case 2:
+            sw="Beta";
+            break;
+    default:
+        return "Default";
+}
+return sw;
+}
+console.log(InSwitch(9));
+//Switch practice question
+function pracSwitch(val){
+    let answer="";
+    switch(val){
+        case 1:
+            answer="Marley";
+            break;
+        case 2:
+            answer="Bob";
+            break;
+        case 3:
+            answer="Ate nine";
+        default:
+            answer="No one";
+    }
+return answer;
+}
+console.log(pracSwitch(2));
+//Returning boolan value
+function bool(a,b){
+    return a<b;
+}
+console.log(bool(10,5));
