@@ -274,7 +274,7 @@ console.log(p);
 
 //strict equality operator
 //3 === 3 true
-//3 === '3' false
+//3 === '3' false   
 
 //practice of equality operator
 function practiceVal(a,b){
@@ -379,3 +379,19 @@ function bool(a,b){
     return a<b;
 }
 console.log(bool(10,5));
+
+function swi(val){
+    let ali="";
+    switch(val){
+        case 1:
+            ali="Hello";
+            break;
+        case 2:
+            ali="Bye";
+            break;
+        default:
+            return "Nothing";
+    }
+    return ali;
+}
+console.log(swi(1));
